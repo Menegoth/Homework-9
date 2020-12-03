@@ -18,6 +18,13 @@ namespace Homework9 {
             Cylinders = cylinders;
             Owner = owner;
         }
+        public Truck(Truck obj) {
+            LoadCapacity = obj.LoadCapacity;
+            TowingCapacity = obj.TowingCapacity;
+            Manufacturer = obj.Manufacturer;
+            Cylinders = obj.Cylinders;
+            Owner = obj.Owner;
+        }
 
         /// <summary>
         /// Returns object as string

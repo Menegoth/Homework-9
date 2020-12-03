@@ -17,6 +17,11 @@ namespace Homework9 {
             Cylinders = cylinders;
             Owner = owner;
         }
+        public Vehicle (Vehicle obj) {
+            Manufacturer = obj.Manufacturer;
+            Cylinders = obj.Cylinders;
+            Owner = obj.Owner;
+        }
 
         //methods
         /// <summary>
